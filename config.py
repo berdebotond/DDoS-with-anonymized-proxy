@@ -7,7 +7,7 @@ class Config(object):
 
 	def __init__(self, arg):
 
-		with open("config.json",'r',encoding = 'utf-8') as f:
+		with open("config.jsons",'r',encoding = 'utf-8') as f:
 			self.configJsonUrls = json.loads(f.read())["urls"]
 	
 	def __getProxy():
